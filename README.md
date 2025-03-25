@@ -21,6 +21,16 @@ Naive method consists in predicting the next value by observing the value before
 
 SeasonalNaive consists in predicting the next value by observing the value a season before (24 for an hour, 7 for a day, 4 for a week and so on...)
 
+## Data
+
+|                        | M4   | Finance | Traffic | ERCOT |
+|------------------------|------|---------|---------|-------|
+| **Frequency**           | H    | D       | Min     | H     |
+| **Context length**      | 72   | 62      | 900     | 744   |
+| **Prediction length**   | 12   | 31      | 100     | 24    |
+| **Number of time series** | 5   | 3       | 1       | 3     |
+
+
 # Reference
 
 ## Amazon Chronos
